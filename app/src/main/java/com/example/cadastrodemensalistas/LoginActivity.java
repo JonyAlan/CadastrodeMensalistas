@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         String user = tUser.getText().toString();
         String senha = tSenha.getText().toString();
 
-        if(user.equals("Jony"))
+        if(user.equals("Admin"))
             if(senha.equals("12345")){
                 Intent irTela  = new Intent(LoginActivity.this,ListaMensalisActivity.class);// intenção de ir pra outra tela
                 startActivity(irTela);
